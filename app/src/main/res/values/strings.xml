@@ -57,4 +57,31 @@
     <string name="pose15">   Step 1:- Stand, extend arms 90° to sides, bend forward 90° at waist.\n\n
                              Step 2:- Looking at the floor, rotate torso to touch hand to foot, rotate for other hand. \n\n
                              Step 3:- Head will follow chest action. </string>
+
+    <string-array name="title_story">
+
+        <item>Build More Muscle</item>
+        <item>Replace with Matcha Green Tea</item>
+        <item>Just Keep Going</item>
+        <item>Stop Counting</item>
+        <item>Do Job</item>
+        <item>Do Yoga</item>
+        <item>Make One Meal</item>
+
+
+    </string-array>
+
+
+    <string-array name="details_story">
+
+        <item>Build More Muscle:</item>
+        <item>Replace with Matcha Green Tea:</item>
+        <item>Just Keep Going:</item>
+        <item>Stop Counting:</item>
+        <item>Do Job:</item>
+        <item>Do Yoga:</item>
+        <item>Make One Meal:</item>
+
+
+    </string-array>
 </resources>

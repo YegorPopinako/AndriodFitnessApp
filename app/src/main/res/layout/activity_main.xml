@@ -17,7 +17,7 @@
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:title="Fitness app"
-        app:titleTextColor="#FFF"
+        app:titleTextColor="@color/white"
 
         />
 

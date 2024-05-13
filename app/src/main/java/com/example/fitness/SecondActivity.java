@@ -3,6 +3,8 @@ package com.example.fitness;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.activity.EdgeToEdge;
@@ -11,6 +13,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import org.jetbrains.annotations.NotNull;
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -46,6 +50,33 @@ public class SecondActivity extends AppCompatActivity {
                 R.id.windmill_pose,
                 R.id.legup_pose
         };
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.main,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NotNull MenuItem item){
+        int id  = item.getItemId();
+        if(id == R.id.id_privacy){
+            return true;
+        }
+        if(id == R.id.id_term){
+            return true;
+        }
+        if(id == R.id.rate){
+            return true;
+        }
+        if(id == R.id.more){
+            return true;
+        }
+        if(id == R.id.share){
+            return true;
+        }
+        return true;
     }
 
     public void imageButtonClicked(View view) {

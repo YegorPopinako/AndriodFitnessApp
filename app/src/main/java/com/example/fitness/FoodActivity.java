@@ -13,6 +13,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+
 public class FoodActivity extends AppCompatActivity {
 
     ListView listView;
@@ -27,6 +28,7 @@ public class FoodActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
 
         String[] tstory = getResources().getStringArray(R.array.title_story);
         final String[] dstory = getResources().getStringArray(R.array.details_story);

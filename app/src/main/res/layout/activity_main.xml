@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#EBF3F2"
+    android:background="@drawable/splash"
     android:orientation="vertical"
     tools:context="com.example.fitness.MainActivity">
 
@@ -13,12 +13,9 @@
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/design_default_color_primary_dark"
+        android:background="@drawable/name"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="Fitness app"
-        app:titleTextColor="@color/white"
-
         />
 
     <ScrollView
@@ -75,6 +72,7 @@
                             android:fontFamily="serif"
                             android:padding="5.0dp"
                             android:text="Days: 60"
+                            android:textColor="#ff000000"
                             android:textSize="20.0dp"
                             android:textStyle="bold"
 
@@ -130,13 +128,15 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
-                    android:background="@drawable/btn"
                     android:text="Get started"
                     android:textAllCaps="true"
+                    android:background="@drawable/btn"
                     android:textColor="#FFF" />
 
 
+
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -177,6 +177,7 @@
                             android:fontFamily="serif"
                             android:padding="5.0dp"
                             android:text="Days: 60"
+                            android:textColor="#ff000000"
                             android:textSize="20.0dp"
                             android:textStyle="bold"
 
@@ -285,6 +286,7 @@
                             android:padding="5.dp"
                             android:text="Suggestion for free"
                             android:textStyle="bold"
+                            android:textColor="#ffff5722"
                             />
 
 
@@ -295,14 +297,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="2.0"
                         >
-                        
+
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:src="@drawable/food"
                             />
 
-                        
+
                     </LinearLayout>
 
                     <LinearLayout

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#FFF"
+    android:background="@drawable/beach"
     android:layout_height="match_parent">
 
     <ScrollView
@@ -23,31 +23,31 @@
                 android:src="@drawable/exersice_9"
                 />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/time"
                 android:layout_marginTop="35dp"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                android:layout_marginLeft="105dp"
+                android:layout_marginLeft="125dp"
                 android:text="01:00"
                 android:textSize="28sp"
                 android:padding="15dp"
                 android:background="@drawable/button_rg_round"
                 />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/startbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/button_bg"
                 android:text="START"
                 android:textColor="@color/white"
                 android:textSize="28sp"
-                android:layout_marginLeft="08dp"
+                android:layout_marginLeft="3dp"
                 android:textStyle="bold"
+                android:background="@drawable/button_bg"
                 />
 
             <TextView

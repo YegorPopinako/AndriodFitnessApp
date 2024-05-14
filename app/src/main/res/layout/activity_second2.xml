@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#FFF"
+    android:background="@drawable/beach"
     android:orientation="vertical"
     tools:context="com.example.fitness.SecondActivity2">
 
@@ -14,11 +14,9 @@
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/design_default_color_primary_dark"
+        android:background="@drawable/name"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="Fitness App"
-        app:titleTextColor="#FFF"
         />
 
     <LinearLayout
@@ -26,21 +24,19 @@
         android:layout_height="match_parent"
         android:layout_weight="1.0"
         android:orientation="vertical"
-        >
+        android:background="@drawable/backgroundcrop2">
 
         <ScrollView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1.0"
-            android:scrollbars="none"
-            >
+            android:scrollbars="none">
 
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:orientation="vertical"
-                >
+                android:orientation="vertical">
 
 
                 <LinearLayout
@@ -48,25 +44,22 @@
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/bow_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -77,15 +70,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -93,8 +84,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -102,14 +92,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
-                                />
+                                android:src="@drawable/exersice_1" />
 
 
                         </LinearLayout>
@@ -119,16 +107,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -137,35 +123,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/bridge_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -176,15 +159,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -192,8 +173,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -201,14 +181,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_2"
-                                />
+                                android:src="@drawable/exersice_2" />
 
 
                         </LinearLayout>
@@ -218,16 +196,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -236,35 +212,33 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/chair_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -275,15 +249,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -291,8 +263,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -300,14 +271,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_3"
-                                />
+                                android:src="@drawable/exersice_3" />
 
 
                         </LinearLayout>
@@ -317,16 +286,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -335,35 +302,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/child_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -374,15 +338,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -390,8 +352,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -399,14 +360,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_4"
-                                />
+                                android:src="@drawable/exersice_4" />
 
 
                         </LinearLayout>
@@ -416,16 +375,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -434,35 +391,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/cobbler_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -473,15 +427,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -489,8 +441,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -498,14 +449,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_5"
-                                />
+                                android:src="@drawable/exersice_5" />
 
 
                         </LinearLayout>
@@ -515,16 +464,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -533,8 +480,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
@@ -544,25 +490,22 @@
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/cow_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -573,15 +516,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -589,8 +530,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -598,14 +538,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_6"
-                                />
+                                android:src="@drawable/exersice_6" />
 
 
                         </LinearLayout>
@@ -615,16 +553,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -633,35 +569,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/playji_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -672,15 +605,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -688,8 +619,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -697,14 +627,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_7"
-                                />
+                                android:src="@drawable/exersice_7" />
 
 
                         </LinearLayout>
@@ -714,16 +642,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -732,8 +658,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
@@ -743,25 +668,22 @@
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/pauseji_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -772,15 +694,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -788,8 +708,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -797,14 +716,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_8"
-                                />
+                                android:src="@drawable/exersice_8" />
 
 
                         </LinearLayout>
@@ -814,16 +731,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -832,35 +747,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/plank_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -871,15 +783,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -887,8 +797,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -896,14 +805,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_9"
-                                />
+                                android:src="@drawable/exersice_9" />
 
 
                         </LinearLayout>
@@ -913,16 +820,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -931,8 +836,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
@@ -942,25 +846,22 @@
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/crunches_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -971,15 +872,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -987,8 +886,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -996,14 +894,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_10"
-                                />
+                                android:src="@drawable/exersice_10" />
 
 
                         </LinearLayout>
@@ -1013,16 +909,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -1031,35 +925,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/situp_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -1070,15 +961,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -1086,8 +975,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -1095,14 +983,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_11"
-                                />
+                                android:src="@drawable/exersice_11" />
 
 
                         </LinearLayout>
@@ -1112,16 +998,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -1130,35 +1014,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/rotation_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -1169,15 +1050,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -1185,8 +1064,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -1194,14 +1072,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_12"
-                                />
+                                android:src="@drawable/exersice_12" />
 
 
                         </LinearLayout>
@@ -1211,16 +1087,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -1229,35 +1103,32 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/twist_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -1268,15 +1139,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -1284,8 +1153,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -1293,14 +1161,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_13"
-                                />
+                                android:src="@drawable/exersice_13" />
 
 
                         </LinearLayout>
@@ -1310,16 +1176,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -1328,8 +1192,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
@@ -1340,25 +1203,22 @@
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/windmill_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -1369,15 +1229,13 @@
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -1385,8 +1243,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -1394,14 +1251,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_14"
-                                />
+                                android:src="@drawable/exersice_14" />
 
 
                         </LinearLayout>
@@ -1411,16 +1266,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -1429,8 +1282,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
@@ -1440,25 +1292,22 @@
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
-                        android:onClick="imageButtonClicked"
                         android:id="@+id/legup_pose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-                        >
+                        android:onClick="imageButtonClicked"
+                        android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
 
 
                             <TextView
@@ -1475,8 +1324,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -1484,8 +1332,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -1493,14 +1340,12 @@
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-                            >
+                            android:layout_weight="2.0">
 
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_15"
-                                />
+                                android:src="@drawable/exersice_15" />
 
 
                         </LinearLayout>
@@ -1510,16 +1355,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
                         </LinearLayout>
 
@@ -1528,8 +1371,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="3dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>

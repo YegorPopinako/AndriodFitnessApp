@@ -20,6 +20,7 @@ public class SecondActivity2 extends AppCompatActivity {
 
     int[] newArray;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +31,7 @@ public class SecondActivity2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
 
@@ -51,7 +53,7 @@ public class SecondActivity2 extends AppCompatActivity {
                 R.id.legup_pose
         };
     }
-    
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.main,menu);

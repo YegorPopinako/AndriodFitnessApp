@@ -123,7 +123,7 @@
                 </LinearLayout>
 
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/startfitness1"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -228,7 +228,7 @@
                 </LinearLayout>
 
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/startfitness2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"

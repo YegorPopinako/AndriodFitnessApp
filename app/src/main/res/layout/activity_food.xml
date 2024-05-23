@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="@drawable/beach"
     android:layout_height="match_parent"
     tools:context=".FoodActivity">
 
@@ -46,14 +47,9 @@
                     android:textStyle="bold"
                     />
 
-
-
-
             </androidx.appcompat.widget.Toolbar>
 
-
         </com.google.android.material.appbar.AppBarLayout>
-
 
     </LinearLayout>
 
@@ -71,7 +67,6 @@
             >
 
         </ListView>
-
 
     </RelativeLayout>
 

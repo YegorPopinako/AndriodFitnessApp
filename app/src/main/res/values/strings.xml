@@ -71,17 +71,14 @@
 
     </string-array>
 
-
     <string-array name="details_story">
-
-        <item>Build More Muscle:</item>
-        <item>Replace with Matcha Green Tea:</item>
-        <item>Just Keep Going:</item>
-        <item>Stop Counting:</item>
-        <item>Do Job:</item>
-        <item>Do Yoga:</item>
-        <item>Make One Meal:</item>
-
-
+        <item>Build More Muscle:\nIncrease your protein intake by incorporating lean meats, fish, eggs, and plant-based proteins such as beans and lentils into your diet. \nProtein is essential for muscle repair and growth.</item>
+        <item>Replace with Matcha Green Tea:\nSwap your regular coffee with matcha green tea. \nMatcha is rich in antioxidants and can boost metabolism, enhance mood, and provide a gentle energy boost without the jitters.</item>
+        <item>Just Keep Going:\nStay consistent with your healthy eating habits. \nIt takes time to see results, so keep pushing forward, even on days when motivation is low. \nConsistency is key to achieving long-term success.</item>
+        <item>Stop Counting:\nInstead of obsessing over calorie counting, focus on the quality of your food. \nOpt for whole, unprocessed foods that nourish your body and provide sustained energy throughout the day.</item>
+        <item>Do Job:\nIncorporate more physical activity into your daily routine by choosing active transportation options like biking or walking to work. \nThis not only boosts your fitness but also helps you burn extra calories.</item>
+        <item>Do Yoga:\nAdd yoga to your fitness regimen to improve flexibility, reduce stress, and enhance overall well-being. \nYoga can also aid in digestion and promote mindful eating practices.</item>
+        <item>Make One Meal:\nPrepare at least one homemade meal each day. \nCooking at home allows you to control the ingredients and portion sizes, ensuring that your meals are healthy and nutritious.</item>
     </string-array>
+
 </resources>

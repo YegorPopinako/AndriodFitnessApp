@@ -27,6 +27,11 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+
+    buildFeatures{
+        dataBinding = true;
+    }
+
     buildToolsVersion = "34.0.0"
 }
 
@@ -42,6 +47,5 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.19")
     implementation("com.google.android.material:material:1.0.0")
-    implementation("com.airbnb.android:lottie:5.2.0")
 
 }

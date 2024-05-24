@@ -34,7 +34,7 @@ public class FoodActivity extends AppCompatActivity {
         final String[] dstory = getResources().getStringArray(R.array.details_story);
 
         listView = findViewById(R.id.list);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.row, R.id.rowtxt, tstory);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.row, R.id.rowtxt, tstory);
 
         listView.setAdapter(adapter);
 

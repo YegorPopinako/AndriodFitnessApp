@@ -176,7 +176,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="serif"
                             android:padding="5.0dp"
-                            android:text="Days: 60"
+                            android:text="Days: 30"
                             android:textColor="#ff000000"
                             android:textSize="20.0dp"
                             android:textStyle="bold"
